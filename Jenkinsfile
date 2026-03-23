@@ -12,8 +12,8 @@ pipeline {
     // กำหนด environment variables
     environment {
         DOCKER_HUB_CREDENTIALS_ID = 'docker-jenkins'
-        DOCKER_REPO               = "tnk6653"
-        APP_NAME                  = "express-docker-app-jenkins"
+        DOCKER_REPO               = "tnk6653/express-jenkins-66"
+        APP_NAME                  = "express-jenkins-66"
     }
 
     // กำหนด stages ของ Pipeline
